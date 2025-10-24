@@ -1,0 +1,42 @@
+body {
+  height: 100vh;                 
+  display: flex;                
+  justify-content: center;      
+  background-color: #f9f9f9;    
+  margin: 0;                    
+}
+.icons {
+  display: flex;               
+  justify-content: center;      
+  align-items: center;         
+  gap: 25px;                 
+  text-align: center;         
+}
+.icons a {
+  display: inline-block;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.icons a:hover {
+  transform: scale(1.2) rotate(10deg);
+  text-shadow: 0 4px 10px rgba(30, 144, 255, 0.5);
+  z-index: 2;
+}
+.fa-brands.fa-whatsapp {
+  color: lightgreen;
+}
+
+.fa-brands.fa-twitter {
+  color: aqua;
+}
+
+.fa-brands.fa-youtube {
+  color: red;
+}
+
+.fa-brands.fa-tiktok {
+  color: black;
+}
+.fa-brands {
+  font-size: 80px;
+}
