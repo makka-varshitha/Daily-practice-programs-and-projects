@@ -1,0 +1,98 @@
+body {
+  font-family: sans-serif;
+  background-color: #28223f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  user-select: none;
+  background: #231e39;
+  color: #b3b8cd;
+  border-radius: 5px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.75);
+  overflow: hidden;
+  position: relative;
+  padding-top: 10px;
+}
+
+.coverphoto {
+  background: url("my image/cover image.jpg");
+  background-size: cover;
+  height: 200px;
+  width: 50%;
+  background-position: 50% 30%;
+  position: relative;
+  left: 25%;
+  transform: translate ( -50%, -50% );
+  margin-bottom: 50px;
+
+}
+
+.profile {
+  height: 90px;
+  width: 80px;
+  border-radius: 50%;
+  border: 3px solid #231e39;
+  background: #292343;
+  position: relative;
+  top: 80px; 
+  left: 20px;
+}
+
+.profile-name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-left 0;
+  text-align: left;
+  padding-left: 20%;
+  margin-right: 500px;
+
+}
+
+.about {
+  margin-top: 20px;
+  line-height: 28px;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0 20px;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.msg-btn, .follow-btn {
+  background: #03bfbc;
+  border: 1px solid #03bfbc;
+  padding: 10px 25px;
+  color: #231239;
+  border-radius: 3px;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.msg-btn {
+  background: transparent;
+  color: #03bfbc;
+}
+
+.msg-btn:hover {
+  color: #231e39;
+  background: #bf03a0;
+}
+
+.follow-btn {
+  background: transparent;
+  color: #03bfbc;
+}
+
+.follow-btn:hover {
+  color: #231e39;
+  background: #bf03af;
+}
