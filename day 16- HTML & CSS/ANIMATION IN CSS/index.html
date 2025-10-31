@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Animation in CSS</title>
+    <style>
+        body {
+            background-color: aliceblue;
+            text-align: center;
+            margin-top: 30px;
+
+        }
+        #box {
+            width: 250px;
+            height: 250px;
+            background-color: aqua;
+            font-size: 2.5em;
+            text-align: center;
+            line-height: 250px;
+            margin: 50px auto;
+            border-radius: 20px;
+            animation: slideRotate 5s ease-in-out infinite alternate;
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50px;
+            animation: slideRotate 5s ease-in-out infinite alternate;
+        }
+        @keyframes slideRotate {
+            0% {
+                transform: translateX(0) rotate(0deg);
+                background-color: aqua;
+            }
+            25% {
+                transform: translateX(150px) rotate(90deg);
+                background-color: lightgreen;
+            }
+            50% {
+                transform: translateY(150px) rotate(180deg);
+                background-color: orange;
+            }
+            75% {
+                transform: translateX(-150px) rotate(270deg);
+                background-color: pink;
+            }
+            100% {
+                transform: translateY(-150px) rotate(360deg);
+                background-color: blueviolet;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="box">Hello</div>
+
+
+    <img src="https://abroadship.org/wp-content/uploads/2016/09/20160906animation.jpg" alt="Animation Image">
+</body>
+</html>
+
