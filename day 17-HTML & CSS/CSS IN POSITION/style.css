@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+.box, 
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10{
+    display: flex;
+    width: 80%;
+    height: 70%;
+    justify-content: center;
+    background-color: aqua;
+    align-items: center;
+}
+.box1{
+    background-color: red;
+}
+
+.box2{
+    background-color: orange;
+}
+
+.box4{
+    background-color: yellow;
+}
+
+.box5{
+    background-color: green;
+}
+
+.box6{
+    background-color: blue;
+}
+
+.box7{
+    background-color: indigo;
+}
+
+.box8{
+    background-color: violet;
+}
+
+.box9{
+    background-color: pink;
+}
+
+.box10{
+    background-color: aquamarine;
+}
